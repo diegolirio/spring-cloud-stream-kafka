@@ -3,7 +3,8 @@ spring:
     stream:
       kafka:
         binder:
-          brokers: localhost:9092
+          brokers: ef62628a-6767-40fe-abb0-8fa22ca6c447.pub.cloud.scaleway.com:9092
+          #brokers: localhost:9092
       bindings:
         customers-in:
           destination: customers
