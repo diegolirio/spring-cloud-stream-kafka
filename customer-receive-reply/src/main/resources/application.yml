@@ -7,8 +7,8 @@ spring:
           #brokers: localhost:9092
       bindings:
         customers-in:
-          destination: customers
+          destination: customers-in
           contentType: application/json
         customers-out:
-          destination: customers
+          destination: customers-out
           contentType: application/json

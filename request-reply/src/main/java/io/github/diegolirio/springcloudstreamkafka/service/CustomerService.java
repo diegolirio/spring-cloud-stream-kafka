@@ -25,5 +25,7 @@ public class CustomerService {
         messageChannel.send(MessageBuilder.withPayload(customer)
                                 .setHeader(MessageHeaders.CONTENT_TYPE, MimeTypeUtils.APPLICATION_JSON)
                                 .build());
+
+        System.out.println("Sended.... OK");
     }
 }
